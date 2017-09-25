@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImageView *image=[UIImageView alloc]initWithImage:[UIImage imageNamed:@"2222"];
+    NSLog(@"主线仓库版1");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
