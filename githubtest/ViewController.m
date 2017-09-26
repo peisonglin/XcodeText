@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImageView *image=[UIImageView alloc]initWithImage:[UIImage imageNamed:@"2222"];
+    UIImageView *image=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"tipian"]];
+    image.backgroundColor=[UIColor redColor];
+    image.frame=CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:image];
     NSLog(@"主线仓库版1");
     // Do any additional setup after loading the view, typically from a nib.
 }
